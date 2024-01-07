@@ -70,9 +70,9 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -104,8 +104,8 @@ nav a {
 }
 
 .banner-description {
-    color: var(--Dark-03, #757575);
-
+    color: #757575;
+    /* text-align: center; */
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -208,29 +208,32 @@ main section {
     margin: 30px;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
 
 /* footer style */
 
-footer{
+footer {
     display: flex;
     gap: 100px;
     background-color: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
 }
-.footer-column{
+
+.footer-column {
     width: 50%;
 }
 
-.social-links a{
+.social-links a {
     margin: 25px;
 }
 
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"],
+input[type="email"],
+textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
