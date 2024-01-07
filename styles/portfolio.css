@@ -103,7 +103,9 @@ nav a {
     margin-bottom: 20px;
 }
 
-.banner-description {}
+.banner-description{
+    
+}
 
 /* main section styles */
 main{
@@ -127,6 +129,12 @@ main{
     text-align: center;
 
 }
+/* skills related styles */
+
 #what-i-do-description{
     padding: 30px 150px  ;
+}
+
+.skill-container{
+    display: flex;
 }
